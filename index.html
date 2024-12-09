@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airsoft Játék / Airsoft Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 20px; }
+        .team-container { display: flex; flex-wrap: wrap; gap: 20px; }
+        .team { border: 1px solid #ccc; padding: 10px; background: #fff; border-radius: 5px; width: 250px; }
+        .team h2 { margin: 0; font-size: 1.2em; text-align: center; }
+        .team-items { margin-top: 10px; }
+        .item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+        .item input { width: 60%; }
+        .item span { font-weight: bold; }
+        .status { color: green; margin-left: 10px; }
+        .progress-bar { margin-left: 10px; width: 100%; height: 10px; background-color: #ddd; border-radius: 5px; overflow: hidden; display: inline-block; }
+        .progress { height: 100%; background-color: orange; width: 0; transition: width 1s linear; }
+        .scoreboard { margin-top: 20px; padding: 10px; border: 1px solid #ccc; background: #fff; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Airsoft Játék / Airsoft Game</h1>
+    <button id="reset-button">Nullázás / Reset</button>
+    <div class="team-container" id="team-container">
+        <!-- Csapatok és tárgyak dinamikusan generálódnak a JavaScript-ből -->
+    </div>
+    <div class="scoreboard">
+        <h2>Pontszámok / Scores:</h2>
+        <ul id="score-list">
+            <!-- Pontszámok dinamikusan generálódnak a JavaScript-ből -->
+        </ul>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

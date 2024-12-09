@@ -1,0 +1,12 @@
+Generált tárgyak és jelszavak
+Tárgyak:
+Muníció: Jelszó: AMMO2024
+Élelmiszer: Jelszó: FOOD1945
+Elsősegély: Jelszó: MEDIC123
+Fegyver: Jelszó: WEAPON9
+Rádió: Jelszó: RADIO77
+Térkép: Jelszó: MAP007
+Távcső: Jelszó: SCOPE1
+Lőszer: Jelszó: BULLET4
+Generátor: Jelszó: GENPOWER
+Hálózati eszköz: Jelszó: NETCOM
